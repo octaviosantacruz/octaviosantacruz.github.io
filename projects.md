@@ -3,7 +3,7 @@ title: Proyectos
 layout: default
 ---
 
-# Proyectos
+## Proyectos
 
 Aquí se listan algunos de los proyectos más interesantes en los que he trabajado:
 

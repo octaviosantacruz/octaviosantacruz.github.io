@@ -3,7 +3,7 @@ title: Sobre Mí
 layout: default
 ---
 
-# Sobre Mí
+## Sobre Mí
 
 Mi nombre es Octavio Santacruz y soy un entusiasta de la ciberseguridad. A lo largo de mi carrera, he trabajado en diversas áreas de seguridad informática, incluyendo pruebas de penetración, análisis de vulnerabilidades y mejoras en infraestructura de red.
 

@@ -3,7 +3,7 @@ title: Blog
 layout: default
 ---
 
-# Blog
+## Blog
 
 En esta sección comparto mis reflexiones y aprendizajes recientes en el ámbito de la ciberseguridad:
 
