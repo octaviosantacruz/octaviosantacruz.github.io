@@ -9,4 +9,4 @@ Mi nombre es Octavio Santacruz y soy un entusiasta de la ciberseguridad. A lo la
 
 Mi objetivo es seguir aprendiendo y compartir mis conocimientos con otros que están empezando o profundizando en el campo.
 
-Puedes contactarme en [mi perfil de GitHub](https://github.com/tuusuario).
+Puedes contactarme en [mi perfil de GitHub](https://github.com/octaviosantacruz).
