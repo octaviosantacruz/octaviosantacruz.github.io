@@ -87,3 +87,48 @@ footer {
         padding: 10px;
     }
 }
+
+/* Estilos para la lista de posts */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.post-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post-item h3 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.post-item p {
+    color: #666;
+}
+
+
+/* Iconos sociales en el footer */
+footer a img.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+footer a img.social-icon:hover {
+    transform: scale(1.1);
+}
