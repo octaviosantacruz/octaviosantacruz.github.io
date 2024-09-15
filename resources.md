@@ -3,7 +3,7 @@ title: Recursos
 layout: default
 ---
 
-# Recursos
+## Recursos
 
 Estos son algunos recursos útiles que me han ayudado en mi camino:
 
