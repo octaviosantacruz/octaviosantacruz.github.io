@@ -1,15 +1,12 @@
 ---
-title: Sobre mí
+title: Sobre Mí
 layout: default
 ---
 
-# Sobre mí
+# Sobre Mí
 
-Soy un entusiasta de la ciberseguridad, trabajando en penetración de sistemas y análisis de vulnerabilidades. Mi objetivo es ayudar a proteger sistemas y redes a través del aprendizaje constante y la práctica.
+Mi nombre es Octavio Santacruz y soy un entusiasta de la ciberseguridad. A lo largo de mi carrera, he trabajado en diversas áreas de seguridad informática, incluyendo pruebas de penetración, análisis de vulnerabilidades y mejoras en infraestructura de red.
 
-## Habilidades
+Mi objetivo es seguir aprendiendo y compartir mis conocimientos con otros que están empezando o profundizando en el campo.
 
-- Pentesting
-- Análisis de vulnerabilidades
-- Hardening de servidores
-- Scripts en Python
+Puedes contactarme en [mi perfil de GitHub](https://github.com/tuusuario).
