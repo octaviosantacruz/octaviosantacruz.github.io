@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Mi Viaje en Ciberseguridad</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog de Ciberseguridad</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/about">Sobre mí</a></li>
+                <li><a href="/projects">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Últimas publicaciones</h2>
+        <div class="posts-container">
+            {% for post in site.posts %}
+                <div class="post-item">
+                    <a href="{{ post.url }}">
+                        {% if post.image %}
+                            <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
+                        {% endif %}
+                        <h2>{{ post.title }}</h2>
+                    </a>
+                    <p class="post-meta">Publicado el {{ post.date | date: "%-d de %B de %Y" }}</p>
+                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Mi Viaje en Ciberseguridad</p>
+        <a href="https://linkedin.com/in/octaviosantacruz" target="_blank">
+            <img src="/assets/images/linkedin-logo.png" alt="LinkedIn" class="social-icon">
+        </a>
+    </footer>
+</body>
+</html>
