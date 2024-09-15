@@ -1,0 +1,16 @@
+---
+title: Blog de Ciberseguridad
+layout: default
+---
+
+<h2>Blog de Ciberseguridad</h2>
+<p>Aquí podrás leer todos mis posts sobre ciberseguridad y proyectos:</p>
+
+<div class="post-list">
+    {% for post in site.posts %}
+    <div class="post-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%B %d, %Y" }} - {{ post.description }}</p>
+    </div>
+    {% endfor %}
+</div>
